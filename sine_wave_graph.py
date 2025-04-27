@@ -11,4 +11,9 @@ air_pressure = 0.5 + np.sin(3.0 * time)
 
 plt.plot(time, air_pressure)
 
+plt.title('Air Pressure Over Time', fontsize=15)
+plt.xlabel('Time (seconds)', fontsize=13)
+plt.ylabel('Air Pressure', fontsize=13)
+plt.grid()
+
 plt.show()
